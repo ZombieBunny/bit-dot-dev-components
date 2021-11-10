@@ -1,0 +1,34 @@
+---
+description: 'A Post component.'
+labels: ['label1', 'label2', 'label3']
+---
+
+import { Post } from './post';
+
+## React Component for rendering text
+
+A basic div that renders some text
+
+### Component usage
+```js
+<Post
+    nickname="Lee"
+    avatar="https://www.clipartmax.com/png/full/405-4050774_avatar-icon-flat-icon-shop-download-free-icons-for-avatar-icon-flat.png"
+    image="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-c5dcbf93--mothertreesblog.jpeg?v=1617378217"
+    caption="[inspirational quote here]"
+    key="a"
+/>
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+```js live
+<Post
+    nickname="Lee"
+    avatar="https://www.clipartmax.com/png/full/405-4050774_avatar-icon-flat-icon-shop-download-free-icons-for-avatar-icon-flat.png"
+    image="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-c5dcbf93--mothertreesblog.jpeg?v=1617378217"
+    caption="[inspirational quote here]"
+    key="a"
+/>
+```
